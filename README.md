@@ -24,41 +24,33 @@ Adjust hyperparameters from the sidebar, see real-time accuracy, and explore dec
 ---
 ## ⚙️ Installation
 
-### 1. Clone the repository
+Follow these steps to set up the project locally:
+
+---
+
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/your-username/decision-tree-visualizer.git
 cd decision-tree-visualizer
-2. Create and activate a virtual environment (recommended)
-# Create venv
+2️⃣ Create and activate a virtual environment (recommended)
+On Mac/Linux
 python -m venv venv
-
-# Activate on Mac/Linux
-source venv/bin/activate  
-
-# Activate on Windows
+source venv/bin/activate
+On Windows
+python -m venv venv
 venv\Scripts\activate
-3. Install dependencies
+3️⃣ Install dependencies
 pip install -r requirements.txt
-▶️ Usage
-Run the Streamlit app:
+4️⃣ Run the Streamlit app
 streamlit run app.py
 Then open the local URL shown in your terminal:
 👉 Default: http://localhost:8501
 📂 Project Structure
 decision-tree-visualizer/
 │
-├── app.py              # Main Streamlit app
-├── requirements.txt    # Dependencies
-├── README.md           # Documentation
-🌐 Live Project
+├── app.py             # Main Streamlit app
+├── requirements.txt   # Dependencies
+└── README.md          # Documentation
+🌍 Live Project
 Check out the deployed app here:
 👉 Decision Tree Classifier Visualizer
-✨ Built with Python, Streamlit, scikit-learn, and Graphviz
-
-This version:  
-- Uses **step-by-step headings** (1, 2, 3) → much easier to follow  
-- Keeps commands inside **separate code blocks** for clarity  
-- Removes the inline clutter  
-- Adds spacing for elegance  
-
-Do you want me to also **add shields.io badges** (like Python version, Streamlit Cloud, License)
