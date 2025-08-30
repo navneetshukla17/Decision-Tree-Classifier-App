@@ -27,3 +27,19 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/decision-tree-visualizer.git
 cd decision-tree-visualizer
+Create and activate a virtual environment (recommended):
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+Install dependencies:
+pip install -r requirements.txt
+▶️ Usage
+Run the Streamlit app:
+streamlit run app.py
+Then open the local URL shown in your terminal (default: http://localhost:8501).
+📂 Project Structure
+decision-tree-visualizer/
+│
+├── app.py                 # Main Streamlit app
+├── requirements.txt       # Dependencies
+├── README.md              # Documentation
